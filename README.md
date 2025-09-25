@@ -1,10 +1,10 @@
-### EX5 Information Retrieval Using Boolean Model in Python
-### AIM: To implement Information Retrieval Using Boolean Model in Python.
-### Description:
+## EX5 Information Retrieval Using Boolean Model in Python
+## AIM: To implement Information Retrieval Using Boolean Model in Python.
+## Description:
 <div align = "justify">
 The Boolean model in Information Retrieval (IR) is a fundamental model used for searching and retrieving information from a collection of documents. It operates on the principles of set theory and logic, where documents are represented as sets of terms or words, and queries are expressed as Boolean expressions using logical operators such as AND, OR, and NOT.
   
-### Procedure:
+## Procedure:
 1. ***Initialize the BooleanRetrieval class:*** The BooleanRetrieval class is defined to manage the indexing and searching of documents.
 2. ***Constructor and Index Initialization:*** The class constructor initializes an empty index to store the inverted index mapping terms to documents.
 3. ***Indexing Documents:***
@@ -20,7 +20,7 @@ The Boolean model in Information Retrieval (IR) is a fundamental model used for 
     <p>b) Tokenize the input query and iterates through its terms.
     <p>c) For each term in the query, it retrieves documents containing that term and performs Boolean operations (AND, OR, NOT) based on the query's structure.
 
-### Program:
+## Program:
 ```
 import numpy as np
 import pandas as pd
@@ -105,9 +105,14 @@ if __name__ == "__main__":
     else:
         print("No results found for the query.")
 ```
-### Output:
+## Output:
+#### AND
 <img width="1773" height="363" alt="image" src="https://github.com/user-attachments/assets/ce36c9f1-82d9-473e-ab34-2192ee17c7e1" />
+
+#### OR
 <img width="1782" height="374" alt="image" src="https://github.com/user-attachments/assets/a4775e6a-a5cc-4d5b-b3c5-19068c9fc364" />
+
+#### NOT
 <img width="1784" height="386" alt="image" src="https://github.com/user-attachments/assets/ce5b24b5-0b79-40b3-a756-4924cd83d495" />
 
 ### Result:

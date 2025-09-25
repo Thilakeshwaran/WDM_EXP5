@@ -106,8 +106,9 @@ if __name__ == "__main__":
         print("No results found for the query.")
 ```
 ### Output:
-<img width="1796" height="372" alt="image" src="https://github.com/user-attachments/assets/2f671826-8552-4b7b-8153-47f077f8c94e" />
-<img width="1774" height="367" alt="image" src="https://github.com/user-attachments/assets/3d894310-f78b-40b2-a19a-661e197b25fe" />
+<img width="1773" height="363" alt="image" src="https://github.com/user-attachments/assets/ce36c9f1-82d9-473e-ab34-2192ee17c7e1" />
+<img width="1782" height="374" alt="image" src="https://github.com/user-attachments/assets/a4775e6a-a5cc-4d5b-b3c5-19068c9fc364" />
+<img width="1784" height="386" alt="image" src="https://github.com/user-attachments/assets/ce5b24b5-0b79-40b3-a756-4924cd83d495" />
 
 ### Result:
 Implement Information Retrieval Using Boolean Model in Python has been executed successfully.
